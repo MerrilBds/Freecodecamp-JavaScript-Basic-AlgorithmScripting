@@ -20,7 +20,8 @@ function mutation(arr) {
   let str1 = arr[0].toLowerCase();
   let str2 = arr[1].toLowerCase();
   
-  for (let i = 0; i < str2.length; i++) {
+    for (let i = 0; i < str2.length; i++) {
+      //check if the character on the str1 is not in str2
     if (str1.indexOf(str2[i]) === -1) {
       return false;
     }
